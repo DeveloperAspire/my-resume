@@ -98,8 +98,13 @@ body {
 }
 .profile-info .profile,
 .experience,
-.education {
+.education ,.project{
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 3px solid var(--red);
+}
+.profile-info .profile,
+.experience,
+.education ,.project a{
+      color:var(--blue);
 }
