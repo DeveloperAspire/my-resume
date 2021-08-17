@@ -7,6 +7,6 @@ My Resume is also responsive on all devices ranging from Desktop, Tablets and sm
 
 My Resume is also my Frontend Task in the HNG!8 internship.
 
- You can view the live site [here](https://vue-song.netlify.app/)
+ You can view the live site [here](https://aspire-resume.netlify.app/)
 
 
