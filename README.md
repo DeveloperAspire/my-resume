@@ -1,5 +1,5 @@
 # My Resume
-![](imgaes/Resume.png)
+![](images/Resume.png)
 
 My Resume is a simple web application with my resume crafted perfectly for easier reach through the web.
 
