@@ -4,6 +4,8 @@
 :root {
   --red: #ef4743;
   --blue: #263547;
+  --ash: #626d7a;
+  --deep-blue: #263558;
 }
 * {
   box-sizing: border-box;
@@ -38,10 +40,16 @@ body {
 
 /* DETAILS SECTION */
 .details {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.details .information {
+  padding: 3rem;
   background-color: var(--blue);
   color: white;
-  padding: 3rem;
 }
+
+/* THE INFORMATION PART OF THE DETAILS */
 .details .information ul {
   margin: 0;
   list-style: none;
@@ -58,6 +66,40 @@ body {
 }
 .details .information .tech-skills,
 .information .personal-skills,
- .information .contact {
+.information .contact {
   margin-bottom: 3rem;
+}
+
+/* THE PROFILE PART OF THE DETAILS */
+.profile-info {
+  padding: 3rem;
+}
+.profile-info h3 {
+  text-transform: uppercase;
+  color: var(--deep-blue);
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.profile-info h4 {
+  text-transform: uppercase;
+  color: var(--deep-blue);
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+}
+.profile-info p {
+  color: var(--blue);
+   margin-bottom: 1rem;
+}
+.profile-info li {
+  color: var(--ash);
+ 
+}
+.profile-info .profile,
+.experience,
+.education {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid var(--red);
 }
