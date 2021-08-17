@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+      --red:#EF4743;
+      --blue:#263547;
+}
+*{
+      box-sizing: border-box;
+      margin:0;
+      padding:0;
+}
+body{  
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+ /* RESUME HEADING  */
+ .header{
+       font-family: 'Roboto', sans-serif;
+       background-color: var(--red);
+       color:white;
+       padding:3rem;
+       text-transform: uppercase;
+       text-align: left;
+ }
+ .header h1{
+       font-size: 3rem;
+       letter-spacing: 4px;
+       font-weight: lighter;
+       margin-bottom: 1rem;
+ }
+ .header p{
+       color:var(--blue);
+       letter-spacing: 4px;
+       font-size: 1rem;
+       font-weight: bold;
+ }
