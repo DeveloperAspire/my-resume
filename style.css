@@ -42,22 +42,22 @@ body {
   color: white;
   padding: 3rem;
 }
-.details ul {
+.details .information ul {
   margin: 0;
   list-style: none;
 }
-.details h3 {
+.details .information h3 {
   color: var(--red);
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: bold;
   margin-bottom: 1rem;
 }
-.details a {
+.details .information a {
   color: white;
 }
-.details .tech-skills,
-.personal-skills,
-.contact {
+.details .information .tech-skills,
+.information .personal-skills,
+ .information .contact {
   margin-bottom: 3rem;
 }
